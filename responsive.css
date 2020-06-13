@@ -1,0 +1,203 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+/*large*/
+@media (max-width: 992px) {
+    .mainmenu .navbar-nav{
+        margin-top: 0px;
+    }
+    .single-info h4 {
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 300;
+    }
+    .author-signature {
+    margin-top: 10px;
+    overflow: hidden;
+    }
+    .author-intro h2.name {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    color: #505050;
+    }
+    .author-intro h5.designation {
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+    }
+    .author-about {
+    color: #606060;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+    }
+    .author-about p{
+      margin: 0;
+    }
+    #info-container {
+    margin-top: 35px;
+    background: url(images/bg/info-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}
+
+/*medium*/
+@media (max-width: 768px) {
+    .mainmenu .navbar-nav{
+        margin-top: 35px;
+    }
+    .cta-caption.carousel-caption {
+        bottom: 0%;
+        left: 9%;
+        text-align: left;
+        max-width: 70%;
+    }
+    .cta-caption h1 {
+        font-size: 25px;
+    }
+
+    .title-container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .single-feature .single-feature-header h2 {
+        font-size: 16px;
+        padding: 15px 0px;
+    }
+    .single-feature {
+        padding: 20px 0px 10px 0px;
+    }
+    .single-feature .single-feature-body p {
+        font-size: 14px;
+    }
+    .single-info h3 {
+     font-size: 25px;
+     font-weight: 600;
+     }
+    .single-info h4 {
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 300;
+    }
+    .price-head h4 {
+    font-size: 18px;
+    font-weight: 600;
+     }
+     .price-body {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    }
+    .white-btn {
+    border: 1px solid #606060;
+    color: #505050;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .3s;
+    }
+    .white-btn:hover{
+        background: #00cf97;
+        color: #fff;
+        border-color: #00cf97;
+        transition: .3s;
+    }
+    .author-intro h2.name {
+      margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    color: #505050;
+    }
+    .author-intro h5.designation {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #606060;
+    }
+    .author-social ul.social {
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    margin-bottom: 0;
+    }
+    .author-signature {
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    overflow: hidden;
+    }
+    #info-container {
+    margin-top: 25px;
+    background: url(images/bg/info-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}
+
+
+/*small*/
+@media (max-width: 576px) {
+   .contact-form{
+     width: 100%;
+   }
+   .green-btn{
+     margin-left: 50%;
+     margin-bottom: 12px;
+     transform: translate(-50%,0);
+   }
+   #contact {
+    margin-bottom: 15px;
+   }
+   .single-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    }
+    .single-info h4 {
+    margin-bottom: 0;
+    font-size: 8px;
+    font-weight: 450;
+    }
+    .price-head h4{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .price-body {
+   text-align: center;
+   font-size: 30px;
+   }
+    .white-btn{
+    border: 1px solid #606060;
+    color: #505050;
+    background: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .3s;
+    }
+    .white-btn:hover{
+        background: #00cf97;
+        color: #fff;
+        border-color: #00cf97;
+        transition: .3s;
+    }
+    .single-feature {
+    padding: 20px 0px 10px 0px;
+    margin-bottom: 15px;
+    }
+
+
+
+}
